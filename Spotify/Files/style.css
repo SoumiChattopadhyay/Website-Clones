@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(254, 238, 244);
+    font-family: "Roboto", sans-serif;
+}
+body{
+    /* color:white; */
+    /* background-color:black; */
+}
+.left{
+    width:25vw;
+    padding:15px;
+}
+.right{
+    width:75vw;
+}
+.home ul li{
+    display:flex;
+    gap:15px;
+    width:15px;
+    list-style: none;
+    padding-top:14px;
+    font-weight:bold;
+}
+.home .logo{
+    display:flex;
+    font-weight:700;
+    align-items: center;
+}
+.home .logo img{
+    width: 25px;
+    height:25px;
+}
+.heading{
+    display: flex;
+    gap:15px;
+    width:100%;
+    padding:8px 0px;
+    font-weight:bold;
+    font-size:11px;
+    align-items:center;
+}
+.library{
+    min-height:70vh;
+    position:relative;/* .library has position: relative;, which means it acts as the positioning reference for .footer since .footer is placed inside .library. This ensures .footer is positioned relative to .library instead of the entire page. */
+}
+.footer{
+    position:absolute;
+    bottom:0;/* distance of footer div from the bottom edge of library div is 0 */
+}
+.footer a{
+    font-size:12px;
+    text-decoration:none;
+    color:rgb(192, 191, 191);
+}
